@@ -1,5 +1,7 @@
 .metadata
-/CsrfCorsUI/node_modules
-/CsrfCorsUI/.editorconfig
 /CsrfCors/.mvn
 /CsrfCors/target
+/CsrfCorsUI/node_modules
+.browserslistrc
+/CsrfCorsUI/.angular
+

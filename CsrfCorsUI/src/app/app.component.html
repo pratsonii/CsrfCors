@@ -1,0 +1,27 @@
+<p>Pratik</p>
+
+<div>
+    <input type="text" [(ngModel)]="user">
+</div>
+
+<div>
+    <input type="text" [(ngModel)]="pass">
+</div>
+<br>
+<div>
+    <Button (click)="login()">login</Button>
+</div>
+<br>
+<div>
+    <Button (click)="printCookie()">Send Get request with JsessionId without credentials and CSRF token</Button>
+</div>
+<br>
+<div>
+    <Button (click)="printCookiePost()">Send Post request with JsessionId without credentials and CSRF token</Button>
+</div>
+<br>
+
+<div>
+    <Button (click)="printCookiePostWithCSRFHeader()">Send Post request with JsessionId and CSRF Header without
+        credentials</Button>
+</div>
