@@ -31,7 +31,6 @@ How it is implemented?
 
 -   Start the app : ng serve -o
 -   Login using : a as Username and a as password
-    -   
 -   Subsequent request are sent using withCredentials property    
     
     withCredentials property is a boolean value that indicates whether or not cross-site Access-Control requests should be made using credentials such as cookies, authorization headers or TLS client certificates.
